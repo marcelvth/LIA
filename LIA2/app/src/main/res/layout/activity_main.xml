@@ -101,11 +101,12 @@
             tools:layout_editor_absoluteY="302dp">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/NoodGeval"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_span="2"
-                android:text="In geval van nood" />
+                android:text="In geval van nood"
+                android:onClick="ShowNoodGeval"/>
         </TableRow>
 
         <TableRow
@@ -122,12 +123,13 @@
                 app:srcCompat="@drawable/terug_knop" />
 
             <ImageButton
-                android:id="@+id/imageButton14"
+                android:id="@+id/voiceControl"
                 android:layout_width="130dp"
                 android:layout_height="70dp"
                 android:paddingTop="10dp"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/mic_knop" />
+                app:srcCompat="@drawable/mic_knop"
+                android:onClick="ShowVoiceControl"/>
         </TableRow>
 
     </TableLayout>
