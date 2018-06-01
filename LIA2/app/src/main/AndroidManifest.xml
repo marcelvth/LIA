@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".VoorzieningenActivity" />
-        <activity android:name=".MaaltijdActivity"></activity>
+        <activity android:name=".MaaltijdActivity" />
+        <activity android:name=".MedicijnenActivity"></activity>
     </application>
 
 </manifest>

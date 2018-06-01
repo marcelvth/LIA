@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/background">
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="509dp"
         android:gravity="center_vertical|center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,16 +25,22 @@
 
             <ImageButton
                 android:id="@+id/voorzieningenBtn"
-                android:layout_width="160dp"
-                android:layout_height="100dp"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:padding="5dp"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/voorzieningen" />
+                app:srcCompat="@drawable/sleutel" />
 
             <ImageButton
 
-                android:id="@+id/imageButton8"
-                android:layout_width="160dp"
-                android:layout_height="100dp"
+                android:id="@+id/medicijnenBtn"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:padding="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/medicijnen" />
         </TableRow>
@@ -45,15 +52,21 @@
 
             <ImageButton
                 android:id="@+id/imageButton10"
-                android:layout_width="160dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:padding="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/woonkamer" />
 
             <ImageButton
                 android:id="@+id/maaltijdBtn"
-                android:layout_width="160dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:padding="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/maaltijd" />
         </TableRow>
@@ -65,15 +78,21 @@
 
             <ImageButton
                 android:id="@+id/imageButton12"
-                android:layout_width="160dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:padding="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/slaapkamer" />
 
             <ImageButton
                 android:id="@+id/imageButton11"
-                android:layout_width="160dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:padding="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/badkamer" />
 
@@ -87,8 +106,10 @@
             <ImageButton
                 android:id="@+id/imageButton16"
                 android:layout_width="wrap_content"
-                android:layout_height="74dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
                 android:layout_span="2"
+                android:background="@drawable/buttondesign"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/map" />
         </TableRow>
@@ -103,8 +124,10 @@
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
                 android:layout_span="2"
+                android:background="@drawable/buttondesign"
                 android:text="In geval van nood" />
         </TableRow>
 
@@ -117,7 +140,10 @@
                 android:id="@+id/imageButton15"
                 android:layout_width="130dp"
                 android:layout_height="70dp"
-                android:paddingTop="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/terug_knop" />
 
@@ -125,7 +151,10 @@
                 android:id="@+id/imageButton14"
                 android:layout_width="130dp"
                 android:layout_height="70dp"
-                android:paddingTop="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttondesign"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/mic_knop" />
         </TableRow>
